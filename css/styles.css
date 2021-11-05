@@ -1,4 +1,60 @@
-body {
-    width: 60rem;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-image: url("images/johny-goerend-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+}
+
+.hero-content {
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-title {
+    font-family: "Lobster", cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.hero-button {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
 }
